@@ -1,0 +1,97 @@
+Compiling 25 files with Solc 0.8.33
+Solc 0.8.33 finished in 1.06s
+Compiler run successful with warnings:
+Warning (2424): Natspec memory-safe-assembly special comment for inline assembly is deprecated and scheduled for removal. Use the memory-safe block annotation instead.
+    --> src/shared/interfaces.sol:5830:9:
+     |
+5830 |         assembly {
+     |         ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning (2424): Natspec memory-safe-assembly special comment for inline assembly is deprecated and scheduled for removal. Use the memory-safe block annotation instead.
+    --> src/shared/interfaces.sol:5853:9:
+     |
+5853 |         assembly {
+     |         ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning (2424): Natspec memory-safe-assembly special comment for inline assembly is deprecated and scheduled for removal. Use the memory-safe block annotation instead.
+    --> src/shared/interfaces.sol:5873:9:
+     |
+5873 |         assembly {
+     |         ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning (2424): Natspec memory-safe-assembly special comment for inline assembly is deprecated and scheduled for removal. Use the memory-safe block annotation instead.
+    --> src/shared/interfaces.sol:6666:9:
+     |
+6666 |         assembly {
+     |         ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning (2424): Natspec memory-safe-assembly special comment for inline assembly is deprecated and scheduled for removal. Use the memory-safe block annotation instead.
+    --> src/shared/interfaces.sol:6681:9:
+     |
+6681 |         assembly {
+     |         ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning (2424): Natspec memory-safe-assembly special comment for inline assembly is deprecated and scheduled for removal. Use the memory-safe block annotation instead.
+    --> src/shared/interfaces.sol:6697:9:
+     |
+6697 |         assembly {
+     |         ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning (2424): Natspec memory-safe-assembly special comment for inline assembly is deprecated and scheduled for removal. Use the memory-safe block annotation instead.
+    --> src/shared/interfaces.sol:6780:9:
+     |
+6780 |         assembly {
+     |         ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning (2424): Natspec memory-safe-assembly special comment for inline assembly is deprecated and scheduled for removal. Use the memory-safe block annotation instead.
+    --> src/shared/interfaces.sol:6848:9:
+     |
+6848 |         assembly {
+     |         ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning (2424): Natspec memory-safe-assembly special comment for inline assembly is deprecated and scheduled for removal. Use the memory-safe block annotation instead.
+    --> src/shared/interfaces.sol:6860:9:
+     |
+6860 |         assembly {
+     |         ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning (2424): Natspec memory-safe-assembly special comment for inline assembly is deprecated and scheduled for removal. Use the memory-safe block annotation instead.
+    --> src/shared/interfaces.sol:6872:9:
+     |
+6872 |         assembly {
+     |         ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning (2424): Natspec memory-safe-assembly special comment for inline assembly is deprecated and scheduled for removal. Use the memory-safe block annotation instead.
+    --> src/shared/interfaces.sol:6892:9:
+     |
+6892 |         assembly {
+     |         ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning (2424): Natspec memory-safe-assembly special comment for inline assembly is deprecated and scheduled for removal. Use the memory-safe block annotation instead.
+    --> src/shared/interfaces.sol:6913:9:
+     |
+6913 |         assembly {
+     |         ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning (2424): Natspec memory-safe-assembly special comment for inline assembly is deprecated and scheduled for removal. Use the memory-safe block annotation instead.
+    --> src/shared/interfaces.sol:6946:9:
+     |
+6946 |         assembly {
+     |         ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning (2424): Natspec memory-safe-assembly special comment for inline assembly is deprecated and scheduled for removal. Use the memory-safe block annotation instead.
+    --> src/shared/interfaces.sol:6978:9:
+     |
+6978 |         assembly {
+     |         ^ (Relevant source part starts here and spans across multiple lines).
+
+
+Ran 1 test for test/2026-01-30_qq/Replay.t.sol:ReplayTest
+[PASS] testReplay() (gas: 119002)
+Logs:
+  [REPLAY] Before ETH Balance: 0.000000000000000000
+  [REPLAY] After ETH Balance: 0.000000000000000000
+
+Suite result: ok. 1 passed; 0 failed; 0 skipped; finished in 2.01s (1.63s CPU time)
+
+Ran 1 test suite in 2.01s (2.01s CPU time): 1 tests passed, 0 failed, 0 skipped (1 total tests)

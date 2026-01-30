@@ -1,0 +1,13 @@
+{
+  "block_number": 24346087,
+  "block_timestamp": 1769756896,
+  "chain_id": 42161,
+  "gas_used": 94221,
+  "mode": "REPLAY",
+  "realized_profit": 0,
+  "success": true,
+  "token_address": "0x0000000000000000000000000000000000000000",
+  "token_decimals": 18,
+  "token_symbol": "ETH",
+  "victim_code_size": 1167
+}
