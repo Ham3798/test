@@ -168,8 +168,8 @@ jobs:
           INPUT_DATA=$(echo $TX_RES | jq -r '.result.input // "0x"')
 
           # Convert to checksum addresses for Solidity
-          ATTACKER=$(cast to-checksum-address "$ATTACKER_RAW")
-          TARGET=$(cast to-checksum-address "$TARGET_RAW")
+          ATTACKER=$(cast to-checksum "$ATTACKER_RAW")
+          TARGET=$(cast to-checksum "$TARGET_RAW")
 
           echo "block_number=$BLOCK_NUM" >> $GITHUB_OUTPUT
           echo "fork_block=$FORK_BLOCK" >> $GITHUB_OUTPUT
